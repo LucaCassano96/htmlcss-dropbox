@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+.link-bar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    border: 1px solid #000;
+    background-color: red;
+    z-index: 1;
+}
+
+.right-bar, .left-bar{
+    height: 100% ;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.right-bar img, .right-bar a, .left-bar a{
+    margin: 0 15px 0 20px;
+}
+
+.left-bar a:last-child{
+    border: 1px solid black;
+    padding: 3px 8px;
+    background-color: blue;
+    color: #fff;
+
+}
+
+.jumbotron-container{
+    width: 100%;
+    min-height: 300px;
+    background-color:  rgb(255, 0, 157);
+    border: 1px solid #000;
+    margin-top: 100px;
+    /* position: relative; */
+}
+
+.jumbotron{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    border: 1px solid #000;
+    background-color: rgb(204, 255, 0);
+    position: relative;
+
+}
+
+.jumbotron h1{
+    font-size: 4rem;
+    text-align:left;
+    margin-bottom: 20px;
+    font-weight: 2000;
+
+}
+
+.jumbotron-content{
+    display: flex;
+}
+
+.text-jumbo{
+    width: 50%;
+    min-height: 300px;
+    border: 1px solid #000;
+    margin-top: 50px;
+    
+
+
+}
+
+
+ .image-jumbo{
+    width: 50%;
+    border: 1px solid #000;
+    position: absolute;
+     right: 0; 
+     top: 150px;
+     margin-top: 70px;
+   
+} 
+
+.image-jumbo img{
+    width: 100%;
+    /* object-fit: cover; */
+   
+    
+}
+
+/* main */
+
+.business-plans{
+    width: 70%;
+    min-height: 800px;
+    margin: 50px auto;
+    border: 1px solid #000;
+    background-color: blue;
+}
+
+.partner{
+    width: 70%;
+    min-height: 500px;
+    margin: 50px auto;
+    background-color: chartreuse;
+    border: 1px solid #000;
+}
+
+.operation{
+    width: 70%;
+    min-height: 800px;
+    margin: 50px auto;
+    background-color: crimson;
+    border: 1px solid #000;
+}
+
+.companies{
+
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(111, 0, 255);
+}
+
+.free-trial{
+     width: 100%;
+    height: 200px;
+    border: 1px solid #000;
+    background-color: rgb(251, 255, 0);
+    }
+
+    .faq{
+    width: 70%;
+    min-height: 200px;
+    margin: 50px auto;
+    border: 1px solid #000;
+    background-color: darkgrey;
+    }
+
+    /* footer */
+
+    footer{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(0, 0, 0);
+    }

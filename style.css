@@ -273,24 +273,91 @@ color: #0061fe;
 
 
     
-
+/* partner */
 
 
 .partner{
     width: 70%;
-    min-height: 500px;
     margin: 50px auto;
-    background-color: chartreuse;
-    border: 1px solid #000;
+    display: flex;
 }
+
+.partner .partner-img{
+    width: 60%;
+    height: 450px;
+    
+    
+
+}
+
+.partner .partner-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   
+}
+
+.partner-description{
+    width: 40%;
+    padding: 50px 30px 0 100px;
+}
+
+.partner-description h3, .partner-description  p {
+    margin-bottom: 30px;
+}
+
+.partner-description a{
+    padding: 5px;
+    border: 1px solid #000;
+
+}
+
+.partner-description a:hover{
+    border: 1px solid #1f1f1f;
+    color: #1f1f1f;
+}
+
+
+
+
+/* operation */
+
+
+
 
 .operation{
     width: 70%;
     min-height: 800px;
-    margin: 50px auto;
-    background-color: crimson;
-    border: 1px solid #000;
+    margin: 150px auto;
 }
+
+
+.instruments-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.instruments{
+    width: calc(85%/3);
+    min-height: 200px;
+    margin-top: 60px;
+}
+
+.instruments-img img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.instruments h4, .instruments p{
+    margin-top: 20px;
+}
+
+
+
+
+
 
 .companies{
 

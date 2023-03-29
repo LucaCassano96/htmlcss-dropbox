@@ -395,7 +395,7 @@ color: #0061fe;
     background-color: rgba(57, 219, 119, 0.97);
 }
 
-.border-green{
+.border-cards{
     position: absolute;
     display: flex;
     width: 50%;
@@ -405,7 +405,7 @@ color: #0061fe;
     background-color: transparent;
     z-index: 1;
     border: 10px solid rgba(255, 255, 255, 0.2) ;
-    animation: slide 8s 2s linear infinite normal;
+    animation: slide 10s 2s linear infinite alternate-reverse;
 }
 
 @keyframes slide{
@@ -413,16 +413,90 @@ color: #0061fe;
         transform: translateX(0);
     }
 
-    33%{
+
+    7.7%{
         transform: translateY(100%);
     }
 
-    66%{
+    9%{
+    transform: translateY(100%);
+   }
+
+    15.3%{
         transform: translateY(100%) translateX(100%);
     }
-    100%{
-        transform: translateX(100%);
+
+    17.5%{
+        transform: translateY(100%) translateX(100%);
     }
+ 
+    23%{
+        transform: translateY(100%) translateX(200%);
+    }
+
+    30.7%{
+        transform: translateY(100%) translateX(300%);
+    }
+
+    38.5%{
+        transform: translateY(100%) translateX(400%);
+    }
+
+    40.5% {
+        transform: translateY(100%) translateX(400%);
+    }
+
+    46.2%{
+        transform: translateY(100%) translateX(500%);
+    }
+
+    48.5%{
+        transform: translateY(100%) translateX(500%);
+    }
+
+    53.85%{
+        transform: translateY(0%) translateX(500%);
+    }
+
+    57%{
+        transform: translateY(0%) translateX(500%);
+    }
+
+
+    61.5%{
+        transform: translateY(0%) translateX(400%);
+    }
+
+    64%{
+        transform: translateY(0%) translateX(400%);
+    }
+
+    69.5%{
+        transform: translateY(0%) translateX(300%);
+    }
+
+    77%{
+        transform: translateY(0%) translateX(200%);
+    }
+
+    84.6%{
+        transform: translateY(0%) translateX(100%);
+    }
+
+    87%{
+        transform: translateY(0%) translateX(100%);
+    }
+
+
+
+    92.5%{
+        transform: translateY(0%) translateX(0%);
+    }
+
+    95%{
+        transform: translateY(0%) translateX(0%);
+    }
+
 }
 
 
@@ -452,7 +526,7 @@ color: #0061fe;
 }
 
 .yellow{
- background-color: yellow;
+ background-color: rgb(222, 222, 0);
 }
 
 .green svg, .brown svg, .light-red svg, .red svg, .cloud svg, .blue svg, .yellow svg, .sky svg {
@@ -468,6 +542,7 @@ color: #0061fe;
     background-color: #dedede;
     overflow-y: auto;
     padding: 40px;
+    z-index: 1;
 }
 
 .grey svg{
@@ -480,7 +555,7 @@ color: #0061fe;
 }
 
 
-
+/* free trial */
 
 .free-trial{
      width: 100%;
